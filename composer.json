@@ -1,6 +1,6 @@
 {
     "name": "phil/contact-bundle",
-    "description": "phil/contact in Symfony: a contact card form with its emails, phone lines, web addresses, handles and structured person name, the JSON column type phil_contact, vCard and JSContact downloads, the JSContact reader as a service, and person names and schema.org JSON-LD in Twig",
+    "description": "phil/contact in Symfony: a contact card form, a JSON column for Doctrine, vCard and JSContact downloads, and names and JSON-LD in Twig.",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
@@ -34,9 +34,9 @@
     },
     "require-dev": {
         "ext-intl": "*",
-        "doctrine/dbal": "^4.5",
-        "doctrine/doctrine-bundle": "^3.3",
-        "doctrine/orm": "^3.7",
+        "doctrine/dbal": "^4.6",
+        "doctrine/doctrine-bundle": "^3.4",
+        "doctrine/orm": "^3.8",
         "phil/instant-messenger": "^0.1@dev",
         "phil/structured-data": "^0.1@dev",
         "phil/url": "^0.1@dev",
@@ -50,7 +50,7 @@
         "symfony/twig-bridge": "^8.2",
         "symfony/twig-bundle": "^8.2",
         "symfony/validator": "^8.2",
-        "twig/twig": "^3.21"
+        "twig/twig": "^3.31.1"
     },
     "suggest": {
         "doctrine/dbal": "For the phil_contact column type",
